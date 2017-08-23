@@ -1,0 +1,24 @@
+{
+  "name": "jeefo_promise",
+  "version": "0.0.1",
+  "description": "Part of jeefo framework",
+  "author": {
+    "name": "je3f0o",
+    "email": "je3f0o@gmail.com"
+  },
+  "homepage": "https://github.com/je3f0o/jeefo_promise",
+  "license": "MIT",
+  "copyright": "2017",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/je3f0o/jeefo_promise.git"
+  },
+  "keywords": [
+    "jeefo",
+    "promise"
+  ],
+  "devDependencies": {},
+  "dependencies": {}
+}
