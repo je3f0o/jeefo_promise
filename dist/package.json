@@ -1,6 +1,6 @@
 {
   "name": "jeefo_promise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Part of jeefo framework",
   "author": {
     "name": "je3f0o",
@@ -19,6 +19,6 @@
     "jeefo",
     "promise"
   ],
-  "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {}
 }

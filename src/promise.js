@@ -1,7 +1,7 @@
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 * File Name   : promise.js
 * Created at  : 2016-09-01
-* Updated at  : 2017-08-10
+* Updated at  : 2017-08-31
 * Author      : jeefo
 * Purpose     :
 * Description :
@@ -168,8 +168,8 @@ var JeefoPromise = function (promise_handler, callback, args) {
 						? next_resolver(rejector(result))
 						: next_rejector(result);
 				default:
-					_PENDING_RESOLVER      = resolver || get_result;
-					_PENDING_REJECTOR      = rejector;
+					_PENDING_RESOLVER     = resolver || get_result;
+					_PENDING_REJECTOR = rejector || get_result;
 					_NEXT_PENDING_RESOLVER = next_resolver;
 					_NEXT_PENDING_REJECTOR = next_rejector;
 					pendings_length += 4;
