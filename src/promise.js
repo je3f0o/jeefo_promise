@@ -1,12 +1,13 @@
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 * File Name   : promise.js
 * Created at  : 2016-09-01
-* Updated at  : 2017-08-31
+* Updated at  : 2017-10-29
 * Author      : jeefo
 * Purpose     :
 * Description :
 _._._._._._._._._._._._._._._._._._._._._.*/
 //ignore:start
+"use strict";
 
 /* globals pendings, pendings_length */
 /* exported */
@@ -174,7 +175,7 @@ var JeefoPromise = function (promise_handler, callback, args) {
 					_NEXT_PENDING_REJECTOR = next_rejector;
 					pendings_length += 4;
 			}
-		});
+		}, callback, args);
 	}
 
 	// Catch {{{1
